@@ -203,7 +203,6 @@ namespace Plivo.API
         public string country { get; set; }
         [ObsoleteAttribute]
         public int lata { get; set; }
-        [ObsoleteAttribute("Use the attribute rental_rate instead")]
         public string monthly_rental_rate { get; set; }
     }
 
