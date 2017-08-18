@@ -438,6 +438,7 @@ namespace Plivo.API
         public string message_type { get; set; }
         public string total_rate { get; set; }
         public int units { get; set; }
+        public string error_code { get; set; }
     }
 
     public class MessageList : PlivoResponse
